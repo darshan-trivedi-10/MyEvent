@@ -2,7 +2,7 @@ import React from 'react'
 import './navbar.css'
 
 
-const Navbar = () => (
+const Navbar = ({ singIn }) => (
     <>
         <div className='navbar'>
             <nav >
@@ -10,7 +10,9 @@ const Navbar = () => (
                 <h6>
                     Create Event
                 </h6>
-                <h6>Sign In</h6>
+                {
+                    (singIn !== false) && <h6>Sign In</h6>
+                }
             </nav>
         </div>
     </>

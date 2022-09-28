@@ -1,0 +1,48 @@
+.eventCreate {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 1rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+.eventForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    gap: 0.2rem;
+}
+
+.inputStyle {
+    outline: none;
+    border-radius: 5px;
+}
+
+.createEventbtn {
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(102, 120, 196);
+    border-radius: 10px;
+}
+
+.createEventbtn:hover {
+    background-color: white;
+}
+
+.posterPrice {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 1rem;
+    font-size: 1rem;
+}
+
+
+.posterPrice>div>input {
+    width: 18vw;
+}
