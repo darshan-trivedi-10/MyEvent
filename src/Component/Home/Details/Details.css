@@ -1,0 +1,58 @@
+.Details {
+    width: 100vw;
+    height: 50vh;
+    background: url('https://cdn-az.allevents.in/banners/d3993d5b58f36baee63516e6f833ef68-rimg-w1200-h800-dc323251-gmir.jpeg ') no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+}
+
+
+.eventType {
+    display: flex;
+    width: fit-content;
+    gap: 1px;
+    font-size: 1rem;
+}
+
+.eventType>input {
+    width: 50%;
+    height: 2rem;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.eventType>select {
+    width: 50%;
+    height: 2rem;
+    outline: none;
+}
+
+@media screen and (max-width: 500px) {
+    .eventType {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 15px;
+    }
+}
+
+.event-btn {
+    border: none;
+    border-radius: 5px;
+    width: 20%;
+    height: 2rem;
+    background-color: rgb(79, 69, 155);
+    color: white;
+}
+
+.event-btn:hover {
+    transform: scale(1.02);
+}
