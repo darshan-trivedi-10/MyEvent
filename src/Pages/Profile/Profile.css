@@ -1,0 +1,11 @@
+.userDetails {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bolder;
+    color: rgb(4, 12, 242);
+    margin-top: 10px;
+    margin-bottom: -10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

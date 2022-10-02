@@ -29,9 +29,22 @@
     gap: 1rem;
 }
 
-.login>input {
+.login>div {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: center;
+}
+
+.login>div>input {
     border-radius: 3px;
     outline: none;
+    background-color: rgba(40, 52, 62, .07);
+    border: none;
+    border-radius: 8px;
+    flex: 1 1;
+    padding: 15px;
 }
 
 .login-btn {
@@ -44,6 +57,18 @@
 
 .login-btn:hover {
     background: white;
+}
+
+.otp-btn {
+    position: absolute;
+}
+
+.google {
+    border: 2px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    font-weight: bolder;
+    cursor: pointer;
 }
 
 @media screen and (max-width:900px) {

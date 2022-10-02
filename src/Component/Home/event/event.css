@@ -1,16 +1,3 @@
-.eventdate {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    font-family: cursive;
-    color: rgb(20, 56, 56);
-}
-
-.eventdate>input {
-    border-radius: 5px;
-}
-
 .events {
     display: flex;
     flex-wrap: wrap;
@@ -19,4 +6,8 @@
     padding-right: 2.5%;
     justify-content: center;
     margin-top: 5%;
+}
+
+.card:hover{
+    cursor: pointer;
 }
